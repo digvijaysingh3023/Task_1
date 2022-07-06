@@ -17,7 +17,7 @@
     <div class="right-section">Contact</div>
   </div>
 
-  <div class="first-line-of-text">Lorem Ipsum Dolor <span class="lorem-ipsum">Lorem Ipsum</span></div>
+  <div id="title-text" class="first-line-of-text">Lorem Ipsum Dolor <span class="lorem-ipsum">Lorem Ipsum</span></div>
   <div class="para">
     Lorem ipsum dolor sit amet,consectetur adipiscing elit.Vivamus ac eleifend sapien.In ac arcu nec diam tincidunt
     cursus.</div>
@@ -25,12 +25,12 @@
   </div>
   <div class="buttons">
     <div>
-      <button class="button-1">
+      <button onclick="document.getElementById('title-text').innerText='Youve clicked button-1'" class="button-1">
         Button 1
       </button>
     </div>
     <div>
-      <button class="button-2">
+      <button onclick="document.getElementById('title-text').innerText='Youve clicked button-2'" class="button-2">
         Button 2
       </button>
     </div>
